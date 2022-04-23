@@ -18,7 +18,8 @@ My goal is to get a Junior Frontend Developer job in the near future.
 - Java Script  
 - Git  
 ## Code example  
-
+  
+  
     function getFormattedTime(time) {
        let hours = Math.floor(time/3600);
        let minutes = Math.floor(time % 3600 / 60);
