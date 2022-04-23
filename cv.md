@@ -39,7 +39,7 @@ My goal is to get a Junior Frontend Developer job in the near future.
 ## Experience
 ### Projects:  
 - [**Virtual coach**](https://github.com/1988db/Virtual_coach)  Java Script/HTML app for performing interval trainings on a trainer  
-### Professional experience:
+### Professional experience:  
 ### 06.2018 - 12.2021 XPO Logistics Oosterhout, The Netherlands  
 position: **Order Picker**  
 responsibility: **completing orders from IKEA on-line shop**  
@@ -47,11 +47,11 @@ responsibility: **completing orders from IKEA on-line shop**
 position: **Cashier**  
 responsibility: **receiving payments and issuing receipts**  
 achievements:  **creating and implementing an app helping cashiers with everyday work. I recieved an award for innovation of the year 2015**  
-## Education
+## Education  
 ### 2022 RS School  
-JS/Frontend development course 
+JS/Frontend development course  
 ### 2012 - 2015 University of Finance and Managment in Białystok  
-field of study: **Finance and Accounting**
+field of study: **Finance and Accounting**  
 ### 2004 - 2007 High School of Casimir III the Great in Białystok  
 ## Languages  
 - English (B1) - practise in an international work environment  
