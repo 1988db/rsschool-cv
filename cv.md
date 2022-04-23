@@ -32,7 +32,8 @@ My goal is to get a Junior Frontend Developer job in the near future.
             seconds = '0' + seconds;
         }
         return hours + ' : ' + minutes + ' : ' + seconds;
-    }
+    }  
+
 ## Experience
 ### Projects:  
 - [**Virtual coach**](https://github.com/1988db/Virtual_coach)  Java Script/HTML app for performing interval trainings on a trainer  
