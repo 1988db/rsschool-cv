@@ -1,9 +1,9 @@
 ![My avatar](https://avatars.githubusercontent.com/u/96013261?v=4)  
 # Daniel Bielecki  
 ## Contacts  
-:pushpin:  Location: Warsaw, Poland  
-:phone:  Mobile: +48 739558676  
-:mailbox_closed:  e-mail: elozrana@gmail.com  
+Location: Warsaw, Poland  
+Mobile: +48 739558676  
+e-mail: elozrana@gmail.com  
 Discord: Daniel_Bielecki#3566  
 Github: [github.com/1988db](https://github.com/1988db)  
 ## About me  
