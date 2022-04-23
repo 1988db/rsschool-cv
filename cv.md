@@ -3,7 +3,7 @@
 ## Contacts  
 Location: Warsaw, Poland  
 Mobile: +48 739558676  
-e-mail: elozrana@gmail.com  
+E-mail: elozrana@gmail.com  
 Discord: Daniel_Bielecki#3566  
 Github: [github.com/1988db](https://github.com/1988db)  
 ## About me  
