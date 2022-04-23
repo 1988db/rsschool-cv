@@ -1,12 +1,12 @@
 ![My avatar](https://avatars.githubusercontent.com/u/96013261?v=4)
- # Daniel Bielecki
- ## Contacts  
- :pushpin:  Location: Warsaw, Poland  
- :phone:  Mobile: +48 739558676  
- :mailbox_closed:  e-mail: elozrana@gmail.com  
- Discord: Daniel_Bielecki#3566  
- Github: [github.com/1988db](https://github.com/1988db)  
- ## About me  
+# Daniel Bielecki
+## Contacts  
+:pushpin:  Location: Warsaw, Poland  
+:phone:  Mobile: +48 739558676  
+:mailbox_closed:  e-mail: elozrana@gmail.com  
+Discord: Daniel_Bielecki#3566  
+Github: [github.com/1988db](https://github.com/1988db)  
+## About me  
 Hello, I am a beginner Frontend Developer from Warsaw, Poland. In programming, I like the intellectual challenges it brings - it's like a puzzle to be solved. Besides Frontend I am an amateur cyclist and I also like hiking.  
 ## My goals  
 In my past job as a cashier I created simple but useful app in form of website which help cashiers with their job. After some time I realised that I can give myself a try with programming and I started an on-line JS/Frontend development course in RS School.  
