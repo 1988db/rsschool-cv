@@ -20,19 +20,19 @@ My goal is to get a Junior Frontend Developer job in the near future.
 ## Code example  
 
     function getFormattedTime(time) {
-        let hours = Math.floor(time/3600);
-        let minutes = Math.floor(time % 3600 / 60);
-        let seconds = time % 60;
-        if (hours < 10) {
-            hours = '0' + hours;
-        }
-        if (minutes < 10) {
-            minutes = '0' + minutes;
-        }
-        if (seconds < 10) {
-            seconds = '0' + seconds;
-        }
-        return hours + ' : ' + minutes + ' : ' + seconds;
+       let hours = Math.floor(time/3600);
+       let minutes = Math.floor(time % 3600 / 60);
+       let seconds = time % 60;
+       if (hours < 10) {
+       hours = '0' + hours;
+       }
+       if (minutes < 10) {
+       minutes = '0' + minutes;
+       }
+       if (seconds < 10) {
+       seconds = '0' + seconds;
+       }
+       return hours + ' : ' + minutes + ' : ' + seconds;
     }  
 
 ## Experience
