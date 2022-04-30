@@ -1,1 +1,1 @@
-https://1988db.github.io/rsschool-cv/cv
+https://1988db.github.io/rsschool-cv/
