@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:visited {
+    color: white;
+}
+  
+  
+a:hover {
+    color: darksalmon;
+}
+  
+a:active {
+    color: red;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1600px;    
+}
+
+header {    
+    height: 100vh;
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+
+.menu {
+    text-align: right;
+    height: 80px;
+}
+
+.menu li {
+    margin-left: 30px;
+    font-size: 24px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.hero-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 80px);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 32px;    
+}
+
+.about-me-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: salmon;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+main {      
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 36px;
+}
+
+main h3 {
+    font-size: 28px;
+}
+
+main span {
+    font-size: 22px;
+}
+
+main a:link {
+    text-decoration: none;
+    color: black;
+}
+
+main a:visited {
+    color: black;
+}
+  
+  
+main a:hover {
+    color: darksalmon;
+}
+  
+main a:active {
+    color: red;
+}
+
+section {
+    padding: 15px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+.info h2 {
+    margin-top: 0;
+}
+
+.technologies {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.code-example {
+    padding: 25px;
+    padding-bottom: 0;
+}
+
+.technologies img {
+    height: 200px;
+    
+}
+
+.contacts-li{
+    font-size: 24px;
+    list-style-type: none;
+}
+
+.contacts-li span {
+    margin-left: 16px;
+}
+
+.github-ico {
+    width: 24px;
+    height: 24px;
+}
+
+.discord-ico {
+    width: 24px;
+    height: 24px;
+}
+
+.code {
+    margin: 25px auto;
+    margin-bottom: 0;
+    width: 40%;
+    background-color: azure;
+    box-shadow: 5px 5px 20px rgb(182 179 179); 
+}
+
+.projects, .professional-experience, .education, .languages {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.virtual-coach {
+    margin: 15px auto;
+    margin-bottom: 0;
+    padding-top: 15px;
+    width: 320px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgb(182 179 179);
+}
+
+.vc-thumb1, .vc-thumb2 {
+    width: 300px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.project-name {
+    margin-bottom: 20px;    
+}
+
+.project-description {
+    font-size: 16px;
+    padding: 15px;
+}
+
+hr {
+    width: 80%;
+}
+
+.project-hyperlink {
+    font-weight: bold;
+    margin: 15px;
+}
+
+.project-hyperlink:link {
+    color: salmon;
+}
+
+.project-hyperlink:visited {
+    color: salmon;
+}
+
+.project-hyperlink:hover {
+    color: red;
+}
+
+.project-hyperlink:active {
+    color: red;
+}
+
+.job, .school, .language {
+    padding: 7px 15px;
+}
+
+.job span, .school span, .language span {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.job p, .school p {
+    margin: 4px 0;
+}
+
+footer {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rslogo {
+    width: 250px;
+}
