@@ -1,4 +1,61 @@
-<!DOCTYPE html><html lang="en"><head><title>Daniel Bielecki CV</title><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"></head><body><div class="container"><header><nav><ul class="menu"><li><a href="#about-me">About me</a></li><li><a href="#skills">Skills</a></li><li><a href="#experience">Experience</a></li></ul></nav><div class="hero-area"><h1 id="my-name">Daniel Bielecki</h1><h2>FrontEnd Developer</h2><a href="#about-me"><div class="about-me-btn">About me</div></a></div></header><main><section id="about-me" class="about-me"><div class="info"><h2>About me</h2><span>Hello, I am a beginner Frontend Developer from Warsaw, Poland. In programming, I like the intellectual challenges it brings - it's like a puzzle to be solved. Besides Frontend I am an amateur cyclist and I also like hiking.</span><h3>My goals</h3><span>In my past job as a cashier I created simple but useful app in form of website which help cashiers with their job. After some time I realised that I can give myself a try with programming and I started an on-line JS/Frontend development course in RS School. I like creating useful tools so currently I am working on my portfolio project “Virtual Coach” - an JS app to help with interval workouts. My goal is to get a Junior Frontend Developer job in the near future.</span></div><div class="headshot"><img class="headshot" src="https://avatars.githubusercontent.com/u/96013261?v=4" alt="My photo"></div></section><section class="skills"><h2 id="skills">Skills</h2><div class="technologies"><img class="html5-logo" src="HTML5_Logo_256.png" alt="HTML5 logo"><img class="css-logo" src="CSS_logo_PNG1.png" alt="CSS logo"><img class="js-logo" src="js-logo.png" alt="JS logo"><img class="github-logo" src="Octocat.png" alt="Github logo"></div><div class="code-example"><h3>Code example</h3><div class="code"><pre>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Daniel Bielecki CV</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                </ul>
+            </nav>
+            <div class="hero-area">
+                <h1 id="my-name">Daniel Bielecki</h1>
+                <h2>FrontEnd Developer</h2><a href="#about-me">
+                    <div class="about-me-btn">About me</div>
+                </a>
+            </div>
+        </header>
+        <main>
+            <section id="about-me" class="about-me">
+                <div class="info">
+                    <h2>About me</h2><span>Hello, I am a beginner Frontend Developer from Warsaw, Poland. In
+                        programming, I like the intellectual challenges it brings - it's like a puzzle to be solved.
+                        Besides Frontend I am an amateur cyclist and I also like hiking.</span>
+                    <h3>My goals</h3><span>In my past job as a cashier I created simple but useful app in form of
+                        website which help cashiers with their job. After some time I realised that I can give myself a
+                        try with programming and I started an on-line JS/Frontend development course in RS School. I
+                        like creating useful tools so currently I am working on my portfolio project “Virtual Coach” -
+                        an JS app to help with interval workouts. My goal is to get a Junior Frontend Developer job in
+                        the near future.</span>
+                </div>
+                <div class="headshot"><img class="headshot" src="https://avatars.githubusercontent.com/u/96013261?v=4"
+                        alt="My photo"></div>
+            </section>
+            <section class="skills">
+                <h2 id="skills">Skills</h2>
+                <div class="technologies"><img class="html5-logo" src="HTML5_Logo_256.png" alt="HTML5 logo"><img
+                        class="css-logo" src="CSS_logo_PNG1.png" alt="CSS logo"><img class="js-logo" src="js-logo.png"
+                        alt="JS logo"><img class="github-logo" src="Octocat.png" alt="Github logo"></div>
+                <div class="code-example">
+                    <h3>Code example</h3>
+                    <div class="code">
+                        <pre>
     function getFormattedTime(time) {
         let hours = Math.floor(time/3600);
         let minutes = Math.floor(time % 3600 / 60);
@@ -7,4 +64,87 @@
         if (minutes &#60; 10) { minutes = '0' + minutes; }
         if (seconds &#60; 10) { seconds = '0' + seconds; }
         return hours + ' : ' + minutes + ' : ' + seconds;
-    }</pre></div></div></section><section class="experience"><h2 id="experience">Experience</h2><h3 class="projects">Projects</h3><div class="virtual-coach"><img class="vc-thumb1" src="vc-thumb1.png" alt="Virtual Coach App Thumbail 1"><img class="vc-thumb2" src="vc-thumb2.png" alt="Virtual Coach App Thumbail 2"><h3 class="project-name">Virtual Coach</h3><span class="project-description">Virtual coach is a sports app which helps with the training. You can set duration of the training, duration of intervals, pauses and then app will tell you when to start scheduled exercises. Technologies used: HTML, CSS, Java Script</span><hr><a class="project-hyperlink" href="https://github.com/1988db/Virtual_coach">View here</a></div><h3 class="professional-experience">Professional experience</h3><div class="job"><h4>06.2018 - 12.2021 XPO Logistics Oosterhout, The Netherlands</h4><p>position:<span> Order Picker</span></p><p>responsibility:<span> completing orders from IKEA on-line shop</span></p></div><div class="job"><h4>05.2010 - 03.2018 Leroy Merlin Białystok, Poland</h4><p>position:<span> Cashier</span></p><p>responsibility:<span> receiving payments and issuing receipts achievements: creating and implementing an app helping cashiers with everyday work. I recieved an award for innovation of the year 2015</span></p></div><h3 class="education">Education</h3><div class="school"><h4>2022 RS School</h4><p>JS/Frontend development course</p></div><div class="school"><h4>2012 - 2015 University of Finance and Managment in Białystok</h4><p>field of study:<span> Finance and Accounting</span></p></div><div class="school"><h4>2004 - 2007 High School of Casimir III the Great in Białystok</h4></div><h3 class="languages">Languages</h3><div class="language"><p>English B1 - practise in an international work environment</p></div><div class="language"><p>Polish Native</p></div><div class="language"><p>Russian A1</p></div></section><section id="contacts" class="contacts"><h2 class="contacts">Contacts</h2><ul class="contacts-li"><li><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192H384z"/></svg><span>Location: Warsaw, Poland</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M320 0H64C37.5 0 16 21.5 16 48v416C16 490.5 37.5 512 64 512h256c26.5 0 48-21.5 48-48v-416C368 21.5 346.5 0 320 0zM240 447.1C240 456.8 232.8 464 224 464H159.1C151.2 464 144 456.8 144 448S151.2 432 160 432h64C232.8 432 240 439.2 240 447.1z"/></svg><span>Mobile: +48 739 558 676</span></li><li><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"/></svg><span>E-mail: <a href="malito:elozrana@gmail.com">elozrana@gmail.com</a></span></li><li><img class="discord-ico" src="Discord-Logo-Black.png" alt="discord icon"><span>Discord: Daniel_Bielecki#3566</span></li><li><img class="github-ico" src="GitHub-Mark-32px.png" alt="github icon"><span>Github: <a href="https://github.com/1988db">github.com/1988db</a></span></li></ul></section></main><footer><a href="#my-name">Daniel Bielecki</a><a href="https://github.com/1988db">My Github: 1998db</a><span>2022</span><a href="https://rs.school/js-en/" target="_blank"><img class="rslogo" src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo"></a></footer></div></body></html>
+    }</pre>
+                    </div>
+                </div>
+            </section>
+            <section class="experience">
+                <h2 id="experience">Experience</h2>
+                <h3 class="projects">Projects</h3>
+                <div class="virtual-coach"><img class="vc-thumb1" src="vc-thumb1.png"
+                        alt="Virtual Coach App Thumbail 1"><img class="vc-thumb2" src="vc-thumb2.png"
+                        alt="Virtual Coach App Thumbail 2">
+                    <h3 class="project-name">Virtual Coach</h3><span class="project-description">Virtual coach is a
+                        sports app which helps with the training. You can set duration of the training, duration of
+                        intervals, pauses and then app will tell you when to start scheduled exercises. Technologies
+                        used: HTML, CSS, Java Script</span>
+                    <hr><a class="project-hyperlink" href="https://github.com/1988db/Virtual_coach">View here</a>
+                </div>
+                <h3 class="professional-experience">Professional experience</h3>
+                <div class="job">
+                    <h4>06.2018 - 12.2021 XPO Logistics Oosterhout, The Netherlands</h4>
+                    <p>position:<span> Order Picker</span></p>
+                    <p>responsibility:<span> completing orders from IKEA on-line shop</span></p>
+                </div>
+                <div class="job">
+                    <h4>05.2010 - 03.2018 Leroy Merlin Białystok, Poland</h4>
+                    <p>position:<span> Cashier</span></p>
+                    <p>responsibility:<span> receiving payments and issuing receipts achievements: creating and
+                            implementing an app helping cashiers with everyday work. I recieved an award for innovation
+                            of the year 2015</span></p>
+                </div>
+                <h3 class="education">Education</h3>
+                <div class="school">
+                    <h4>2022 RS School</h4>
+                    <p>JS/Frontend development course</p>
+                </div>
+                <div class="school">
+                    <h4>2012 - 2015 University of Finance and Managment in Białystok</h4>
+                    <p>field of study:<span> Finance and Accounting</span></p>
+                </div>
+                <div class="school">
+                    <h4>2004 - 2007 High School of Casimir III the Great in Białystok</h4>
+                </div>
+                <h3 class="languages">Languages</h3>
+                <div class="language">
+                    <p>English B1 - practise in an international work environment</p>
+                </div>
+                <div class="language">
+                    <p>Polish Native</p>
+                </div>
+                <div class="language">
+                    <p>Russian A1</p>
+                </div>
+            </section>
+            <section id="contacts" class="contacts">
+                <h2 class="contacts">Contacts</h2>
+                <ul class="contacts-li">
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 384 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192H384z" />
+                        </svg><span>Location: Warsaw, Poland</span></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 384 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M320 0H64C37.5 0 16 21.5 16 48v416C16 490.5 37.5 512 64 512h256c26.5 0 48-21.5 48-48v-416C368 21.5 346.5 0 320 0zM240 447.1C240 456.8 232.8 464 224 464H159.1C151.2 464 144 456.8 144 448S151.2 432 160 432h64C232.8 432 240 439.2 240 447.1z" />
+                        </svg><span>Mobile: +48 739 558 676</span></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 512 512">
+                            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z" />
+                        </svg><span>E-mail: <a href="malito:elozrana@gmail.com">elozrana@gmail.com</a></span></li>
+                    <li><img class="discord-ico" src="Discord-Logo-Black.png" alt="discord icon"><span>Discord:
+                            Daniel_Bielecki#3566</span></li>
+                    <li><img class="github-ico" src="GitHub-Mark-32px.png" alt="github icon"><span>Github: <a
+                                href="https://github.com/1988db">github.com/1988db</a></span></li>
+                </ul>
+            </section>
+        </main>
+        <footer><a href="#my-name">Daniel Bielecki</a><a href="https://github.com/1988db">My Github:
+                1998db</a><span>2022</span><a href="https://rs.school/js-en/" target="_blank"><img class="rslogo"
+                    src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo"></a></footer>
+    </div>
+</body>
+
+</html>
